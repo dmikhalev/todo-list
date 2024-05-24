@@ -1,0 +1,15 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: todo-list
+  datasource:
+    url: jdbc:postgresql://127.0.0.1:15432/todo_list
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: 12345
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+
